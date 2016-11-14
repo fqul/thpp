@@ -115,7 +115,7 @@ IF(NOT NO_TESTS)
   INCLUDE_DIRECTORIES(
     "${CMAKE_CURRENT_SOURCE_DIR}/googletest-release-1.7.0/include"
   )
-  ADD_SUBDIRECTORY("test")
+  #ADD_SUBDIRECTORY("test")
 ENDIF()
 
 
