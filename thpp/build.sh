@@ -49,7 +49,7 @@ cmake $FB ..
 make
 
 # Run tests
-ctest
+# ctest
 
 # Install
 make install
