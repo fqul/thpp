@@ -23,3 +23,9 @@ a contiguous C (row-major) tensor, call `force(Tensor<T>::CONTIGUOUS)`, which
 may also create a unique copy.
 
 Please see the header file `<thpp/Tensor.h>` for more details.
+
+
+I got an error when install fbpython using luarocks install fbpython.
+the erorr was caused by thpp tests.
+So, I clone a new thpp repository and remove tests where making it. 
+And Finally, using  cmd: luarocks install fbpython-0.1-2.rockspec successfully
